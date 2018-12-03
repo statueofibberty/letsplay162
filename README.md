@@ -24,6 +24,10 @@ In the /js directory, all of the included data:
 - table.js: this is not created by us
 - radar-chart.js: library to create the radarchart in the first visualization
 
+In the /py directory: 
+
+- the included file is a scraper that cycles through the MLB api to get relevant data for the radar charts
+
 ### Data overlay
 
 In the /data directory, all of the included data:
