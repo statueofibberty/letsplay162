@@ -1,0 +1,30 @@
+name,id,zip,shortname,state,value,lat,long,venue,url,first_year,league,city,team_id,team_two
+Arizona Diamondbacks,109,85004,D-backs,Arizona,1,33.45064,-112.06941,Chase Field,dbacks.mlb.com,1998,National League,Phoenix,ARI,ARI
+Atlanta Braves,144,30315,Braves,Georgia,1,33.70674,-84.37952,Turner Field,braves.mlb.com,1871,National League,Atlanta,ATL,ATL
+Baltimore Orioles,110,21201,Orioles,Maryland,2,39.29539,-76.62394,Oriole Park at Camden Yards,orioles.mlb.com,1901,American League,Baltimore,BAL,BAL
+Boston Red Sox,111,2215,Red Sox,Massachusetts,1,42.34519,-71.10613,Fenway Park,redsox.mlb.com,1901,American League,Boston,BOS,BOS
+Chicago Cubs,112,60613-4397,Cubs,Illinois,2,41.95202,-87.65598,Wrigley Field,cubs.mlb.com,1874,National League,Chicago,CHC,CHN
+Chicago White Sox,145,60616,White Sox,Illinois,2,41.84582,-87.62474,U.S. Cellular Field,whitesox.mlb.com,1901,American League,Chicago,CHW,CHA
+Cincinnati Reds,113,45202-4109,Reds,Ohio,2,39.10944,-84.4885,The Great American Ball Park,reds.mlb.com,1882,National League,Cincinnati,CIN,CIN
+Cleveland Indians,114,44115,Indians,Ohio,2,41.48759,-81.67769,Progressive Field,indians.mlb.com,1901,American League,Cleveland,CLE,CLE
+Colorado Rockies,115,80205-2000,Rockies,Colorado,1,39.75834,-104.96767,Coors Field,rockies.mlb.com,1992,National League,Denver,COL,COL
+Detroit Tigers,116,48201,Tigers,Michigan,1,42.34624,-83.06056,Comerica Park,tigers.mlb.com,1901,American League,Detroit,DET,DET
+Houston Astros,117,77002,Astros,Texas,2,29.75021,-95.36769,Minute Maid Park,astros.mlb.com,1962,American League,Houston,HOU,HOU
+Kansas City Royals,118,64129,Royals,Missouri,2,39.04636,-94.49495,Kauffman Stadium,royals.mlb.com,1969,American League,Kansas City,KCR,KCA
+Los Angeles Angels,108,92806,Angels,California,5,33.83099,-117.86681,Angel Stadium of Anaheim,angels.mlb.com,1961,American League,Anaheim,ANA,ANA
+Los Angeles Dodgers,119,90012-1199,Dodgers,California,5,34.06555,-118.24054,Dodger Stadium,dodgers.mlb.com,1884,National League,Los Angeles,LAD,LAN
+Miami Marlins,146,33125,Marlins,Florida,2,25.78341,-80.23936,Marlins Park,marlins.mlb.com,1992,National League,Miami,MIA,MIA
+Milwaukee Brewers,158,53214,Brewers,Wisconsin,1,43.02231,-88.01583,Miller Park,brewers.mlb.com,1969,National League,Milwaukee,MIL,MIL
+Minnesota Twins,142,55403,Twins,Minnesota,1,44.97287,-93.28747,Target Field,twins.mlb.com,1901,American League,Minneapolis,MIN,MIN
+New York Mets,121,11368,Mets,New York,2,40.75233,-73.85346,Citi Field,mets.mlb.com,1962,National League,New York,NYM,NYN
+New York Yankees,147,10451,Yankees,New York,2,40.81895,-73.92041,Yankee Stadium,yankees.mlb.com,1903,American League,Bronx,NYY,NYA
+Oakland Athletics,133,94621,Athletics,California,5,37.73547,-122.20856,Oakland Coliseum,athletics.mlb.com,1901,American League,Oakland,OAK,OAK
+Philadelphia Phillies,143,19148,Phillies,Pennsylvania,2,39.9119,-75.15144,Citizens Bank Park,phillies.mlb.com,1883,National League,Philadelphia,PHI,PHI
+Pittsburgh Pirates,134,15212,Pirates,Pennsylvania,2,40.46775,-80.01214,PNC Park,pirates.mlb.com,1882,National League,Pittsburgh,PIT,PIT
+San Diego Padres,135,92101,Padres,California,5,32.71991,-117.18053,Petco Park,padres.mlb.com,1969,National League,San Diego,SDP,SDN
+San Francisco Giants,137,94107,Giants,California,5,37.76785,-122.39286,AT&T Park,giants.mlb.com,1883,National League,San Francisco,SFG,SFN
+Seattle Mariners,136,98104,Mariners,Washington,1,47.60213,-122.32843,Safeco Field,mariners.mlb.com,1977,American League,Seattle,SEA,SEA
+St. Louis Cardinals,138,63102,Cardinals,Missouri,2,38.63555,-90.18967,Busch Stadium,cardinals.mlb.com,1892,National League,St. Louis,STL,SLN
+Tampa Bay Rays,139,33705,Rays,Florida,2,27.74337,-82.64372,Tropicana Field,rays.mlb.com,1998,American League,Tampa Bay,TBR,TBA
+Texas Rangers,140,76011,Rangers,Texas,2,32.75612,-97.07696,Globe Life Park in Arlington,rangers.mlb.com,1961,American League,Arlington,TEX,TEX
+Washington Nationals,120,20003-1507,Nationals,Maryland,2,38.87775,-76.98655,Nationals Park,nationals.mlb.com,1969,National League,Washington,WSN,WAS

@@ -1,0 +1,64 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h2, h3, h4{
+    margin-top: 30px;
+}
+
+h5{
+    margin-top: 30px;
+}
+
+
+#second-cont{
+    margin-top: 150px;
+}
+
+#secondpic{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+path:hover {
+    fill-opacity: .7;
+}
+
+/* Style for Custom Tooltip */
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    width: 200px;
+    height: 90px;
+    padding: 10px;
+    font: 16px sans-serif;
+    background: white;
+    border: solid black 2px;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+#canvas{
+    border: 2px solid black;
+}
+
+#canvas2{
+    border: 2px solid black;
+}
+
+#canvas3{
+    border: 2px solid black;
+}
+
+.radarBox{
+    border: 1px solid darkgrey;
+}
+
+#pDescription{
+    font: 14px 'Poppins', sans-serif;
+}
+
+
+/* YOUR CSS STYLES */
