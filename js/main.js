@@ -53,7 +53,7 @@ function roster(overall) {
                 $("#canvas3").hide();
 
                 d3.select("#canvas").selectAll("*").remove();
-                d3.select("#canvas").html(" <div class=\"col-md-10 col-xs-10\">\n" +
+                d3.select("#canvas").html(" <div class=\"col-md-9 col-xs-9\">\n" +
                     "                <div id = \"first-title\">\n" +
                     "                    <h4 style='text-indent: 100px;'>Let's start by looking at all the teams in the 2016 Season: </h4>\n" +
                     "                    <p></p>\n" +
@@ -61,7 +61,7 @@ function roster(overall) {
                     "                <div class=\"scaling-svg-container\" id = \"svgrMain\">\n" +
                     "                </div>\n" +
                     "            </div>\n" +
-                    "            <div class=\"col-md-2 col-xs-2\">\n" +
+                    "            <div class=\"col-md-3 col-xs-3\">\n" +
                     "                <div id=\"textDescription\">\n" +
                     "                    <h3> Teams at-a-glance </h3>\n" +
                     "\n" +
