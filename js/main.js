@@ -34,7 +34,7 @@ var chartName = [];
 //when clicked, this creates the roster
 
 function roster(overall) {
-    d3.json("http://lookup-service-prod.mlb.com/json/named.roster_team_alltime.bam?start_season='2016'&end_season='2016'&team_id='"+overall.id+"'", function(json){
+    d3.json("https://lookup-service-prod.mlb.com/json/named.roster_team_alltime.bam?start_season='2016'&end_season='2016'&team_id='"+overall.id+"'", function(json){
         json = json.roster_team_alltime.queryResults.row
 
 
