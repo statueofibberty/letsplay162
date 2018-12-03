@@ -46,7 +46,7 @@ function roster(overall) {
         var text = d3.select("#first-title");
         text.append("h4")
             .style("font-weight", "bold")
-            .text("The " + overall.name + "\n:                                                       [Click to Return]")
+            .text("Big Hitters in The " + overall.name + "\n:                                                       [Click to Return]")
             .on("click", function(d){
                 d3.select("#canvas2").style("border", "2px solid black");
                 $("#canvas2").hide();
