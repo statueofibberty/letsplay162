@@ -66,7 +66,7 @@ function roster(overall) {
                     "                    <h3> Teams at-a-glance </h3>\n" +
                     "\n" +
                     "                    <p> Baseball is one of America's favorite pastimes. From The San Francisco Giants to the New York Yankees, these teams have diverse players hailing from all around the world -\n" +
-                    "                        click on any of the cities to get more information about the teams and their respective 2016 rosters.</p>\n" +
+                    "                        click on any of the cities to get more information about the teams and their respective 2016 rosters, and hover for more info.</p>\n" +
                     "                </div>\n" +
                     "            </div>");
 
@@ -84,7 +84,7 @@ function roster(overall) {
         desctext.append("p")
             .style("font-size", "16px")
             .text("The " + overall.shortname +", originally hailing from "+ overall.city +", "+ overall.state+ ", are one of the great franchises of the "+ overall.league +". Having started play in "+ overall.first_year +", they've enjoyed a " +
-                "long career playing at "+ overall.venue +". For more information about the "+ overall.shortname +", head over to " + overall.url );
+                "long career playing at "+ overall.venue +". For more information about the "+ overall.shortname +", head over to " + overall.url + ". Hover over the points for more detail!" );
 
         desctext.append("h4")
             .style("font-weight", "bold")
@@ -250,7 +250,7 @@ function main() {
                         .style("opacity", .9);
                     div.text("The " + d.name)
                         .style("left", (d3.event.pageX - 400) + "px")
-                        .style("top", (d3.event.pageY - 500) + "px");
+                        .style("top", (d3.event.pageY - 600) + "px");
                 })
 
                 // fade out tooltip on mouse out
