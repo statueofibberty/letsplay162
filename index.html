@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>D3 Project</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+            <ul class="navbar-nav">
+                <li class="nav-item active" style="text-align: center; padding: 30px 0px 0px 0px; margin: 0px 0px 0px 0px"">
+                    <h2 style = "color: white; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px">Let's Play 162</h2>
+
+                </li>
+            </ul>
+    </nav>
+
+
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12">
+                <div id="title" class="page-header">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4 col-md-4">
+
+            </div>
+            <div class="col-xs-8 col-md-8"></div>
+        </div>
+        <div class="row"> <h2 style="text-weight: bolder; text-align: center; width: 100%;letter-spacing: 5px; margin-bottom: 30px;"><u><b> America's Favorite Pastime: </b></u></h2>
+
+
+            <div class="row">
+                <div class="col-md-8 col-xs-8">
+                    <br>
+                    <p> Baseball originally found its history in amateurism - the earliest tale of baseball being played by professional rules goes back to laborers playing the game
+                        on the outskirts of New York City in 1857. </p>
+                    <p> Consequently, it was the northeast that found itself to be the true rise of professional baseball - it was where most of the early professional teams came from. Now, however,
+                        baseball is played all around the United States, and even (in some instances) outside of it. </p>
+                    <p> 2016 was a pivotal year for baseball - the Chicago Cubs had won the world series for the first time in 108 years, where Kris Bryant became the first in history to hit three home
+                        runs and two doubles in a game against Cincinatti.</p>
+                    <br>
+                    <p><b> Click a team below to get started:</b></p>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <img src="img/stadium.jpg" alt="stadium" width="400" height="300">
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row" id="canvas">
+
+            <div class="col-md-9 col-xs-9">
+                <div id = "first-title">
+                    <h4 style='text-indent: 100px'> Let's start by looking at all the teams in the 2016 Season: </h4>
+                    <p></p>
+                </div>
+                <div class="scaling-svg-container" id = "svgrMain">
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-3">
+                <div id="textDescription">
+                    <h3> At-a-glance </h3>
+
+                    <p> Baseball is one of America's favorite pastimes. From The San Francisco Giants to the New York Yankees, these teams have diverse players hailing from all around the world -
+                        click on any of the cities to get more information about the teams and their respective 2016 rosters.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="col-md-4 col-xs-4">
+                <br>
+                <img src="img/athlete.jpg" alt="player" width="350" height="250">
+            </div>
+            <div class="col-md-8 col-xs-8">
+                <br>
+                <p> For the 2016 season, the various teams were scheduled to play 9 games against opponents within their division,
+                    totaling 76 games. They were also to play seven games against teams from the other divisions, for a total of
+                    66 games. </p>
+                <p> All teams were scheduled to play 20 interleague games throughout the season. The season itself was awash with new
+                    records, like a new league record with 6,726 strikeouts in the month of May.</p>
+                <br>
+                <p> <b> To see each team's win-loss record, click on a team above and sort by the ratio at a certain point in the
+                    season, or the breakdown of wins/losses per game.</b></p>
+            </div>
+        </div>
+
+    <div class="row" id="canvas2">
+        <div class="col-md-10 col-xs-10">
+            <div id = "first-title">
+                <h4> Here's how the <span id="teamSelected"></span> performed in the 2016 regular season: </h4>
+                <p></p>
+            </div>
+            <div class="col-md-2 col-xs-2 col" id="left">
+                <select class="form-control-lineB" id="chart-data">
+                    <option value="wlRatio">Win Loss Ratio at Given Game in the Season</option>
+                    <option value="WinLoss">Wins and Losses Throughout the Season</option>
+                </select>
+            </div>
+
+        </div>
+    </div>
+
+        <div class="row">
+            <div class="col-md-8 col-xs-8">
+                <br>
+                <p> The year begins with <b>Spring Training</b>, where players come to practice and have a few exhibition games
+                before the regular season starts. Spring training allows new players to audition for roster and position
+                spots. </p>
+                <p> The <b>Regular Season</b> has 162 games, and usually begins on the first Sunday in April and
+                ends on the first Sunday in October. Each player can be batting, a pitcher, or an outfielder.</p>
+                <p>
+                    <b> For each team,
+                    take a look at where they stacked up in the positions that they played.</b></p>
+            </div>
+            <div class="col-md-4 col-xs-4">
+                <br>
+                <img src="img/running.jpg" alt="running" width="350" height="250">
+                <br>
+                <br>
+            </div>
+        </div>
+
+    <div>
+        <div class="row" id="canvas3">
+            <div class="col-md-12 col-xs-12">
+                <div id = "players-description">
+                    <h4> Player Contributions for the <span id="pHead"></span></h4>
+                    <p>These stats show the overall impact a player has on their team.</p>
+
+                </div>
+            </div>
+            <div class="col-md-8 col-xs-8">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <label for="ranking-type"></label>
+                        <select class="form-control" id="select-box" onchange="updatePlayers()">
+                            <option value="games">Total Games Played</option>
+                            <option value="bat">Games at Bat</option>
+                            <option value="def">Games on Defense</option>
+                            <option value="pitch">Games Pitched</option>
+                            <option value="war">Wins Above Replacement</option>
+                        </select>
+                    </div>
+                </form>
+
+                </br>
+                <p id="pDescription"></p>
+
+                <div id = "players"></div>
+                </br>
+                </br>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/d3.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <script src="js/table.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/main2.js"></script>
+    <script src="js/players.js"></script>
+    <script src="js/d3-tip.js"></script>
+    <script src="js/radar-chart.min.js"></script>
+</body>
+</html>
